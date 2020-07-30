@@ -6,7 +6,6 @@ import Home from './Pages/Home';
 import CadastroVideo from './Pages/Cadastro/Video';
 import CadastroCategoria from './Pages/Cadastro/Categoria';
 
-
 ReactDOM.render(
   <BrowserRouter>
     <Switch>
@@ -16,5 +15,5 @@ ReactDOM.render(
       <Route component={() => <h1>Deu merda</h1>} />
     </Switch>
   </BrowserRouter>,
-  document.getElementById('root')
+  document.getElementById('root'),
 );
